@@ -15,7 +15,12 @@ On my local machine I use the PyCharm "Run" (Shift+F10) to run the (development 
 Then I open a Browser and browse to `localhost:5000` 
 
 ## Run my app from a terminal window
-
+```
+cd ~/work/siri/flask
+pyenv activate flaskProject1
+python -m flask run
+```
+Then open browser and navigate to http://localost:5000/hello or to http://localost:5000/user/ee
 
 ## Deploy my app to PythonAnywhere
 
